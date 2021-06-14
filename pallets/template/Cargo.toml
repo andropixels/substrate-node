@@ -1,5 +1,5 @@
 [package]
-authors = ['Deventraledu <https://github.com/Decentraledu>']
+authors = ['Decentraledu <https://github.com/Decentraledu>']
 description = 'FRAME pallet template for defining decentralized education platform runtime logic.'
 edition = '2018'
 homepage = 'http://decentraledu.org/'

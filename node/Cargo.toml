@@ -1,7 +1,7 @@
 [package]
-authors = ['Deventraledu <https://github.com/Decentraledu>']
+authors = ['Decentraledu <https://github.com/Decentraledu>']
 build = 'build.rs'
-description = 'A decentralized education platform build on FRAME-based Substrate node, ready for hacking.'
+description = 'Decentraledu Substrate Node'
 edition = '2018'
 homepage = 'http://decentraledu.org/'
 license = 'Unlicense'
@@ -10,7 +10,7 @@ repository = 'https://github.com/Decentraledu/substrate-node/'
 version = '3.0.0'
 
 [[bin]]
-name = 'node-template'
+name = 'decentraledu'
 
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
@@ -52,8 +52,8 @@ sp-transaction-pool = {version = '3.0.0', git = 'https://github.com/paritytech/s
 substrate-frame-rpc-system = {version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-05'}
 
 # local dependencies
-node-template-runtime = {version = '3.0.0', path = '../runtime'}
+decentraledu-runtime = {version = '3.0.0', path = '../runtime'}
 
 [features]
 default = []
-runtime-benchmarks = ['node-template-runtime/runtime-benchmarks']
+runtime-benchmarks = ['decentraledu-runtime/runtime-benchmarks']

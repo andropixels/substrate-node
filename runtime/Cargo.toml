@@ -1,9 +1,9 @@
 [package]
-authors = ['Deventraledu <https://github.com/Decentraledu>']
+authors = ['Decentraledu <https://github.com/Decentraledu>']
 edition = '2018'
 homepage = 'http://decentraledu.org/'
 license = 'Unlicense'
-name = 'decentraledu'
+name = 'decentraledu-runtime'
 repository = 'https://github.com/Decentraledu/substrate-node/'
 version = '3.0.0'
 
