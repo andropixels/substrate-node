@@ -1,12 +1,12 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
-description = 'FRAME pallet template for defining custom runtime logic.'
+authors = ['Deventraledu <https://github.com/Decentraledu>']
+description = 'FRAME pallet template for defining decentralized education platform runtime logic.'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'http://decentraledu.org/'
 license = 'Unlicense'
 name = 'pallet-template'
 readme = 'README.md'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+repository = 'https://github.com/Decentraledu/substrate-node/'
 version = '3.0.0'
 
 [package.metadata.docs.rs]

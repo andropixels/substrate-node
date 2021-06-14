@@ -1,12 +1,12 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Deventraledu <https://github.com/Decentraledu>']
 build = 'build.rs'
-description = 'A fresh FRAME-based Substrate node, ready for hacking.'
+description = 'A decentralized education platform build on FRAME-based Substrate node, ready for hacking.'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'http://decentraledu.org/'
 license = 'Unlicense'
-name = 'node-template'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+name = 'decentraledu'
+repository = 'https://github.com/Decentraledu/substrate-node/'
 version = '3.0.0'
 
 [[bin]]
