@@ -4,14 +4,6 @@ A decentralized education platform that is built on FRAME-based [Substrate](http
 
 ## Getting Started
 
-Follow the steps below to get started with the Node Template, or get it up and running right from your browser
-in just a few clicks using [Playground](https://playground.substrate.dev/) :hammer_and_wrench:
-
-### Using Nix
-
-Install [nix](https://nixos.org/) and optionally [direnv](https://github.com/direnv/direnv) and [lorri](https://github.com/target/lorri) for a fully plug
-and play experience for setting up the development environment. To get all the correct dependencies activate direnv `direnv allow` and lorri `lorri shell`.
-
 ### Rust Setup
 
 First, complete the [basic Rust setup instructions](./docs/rust-setup.md).
@@ -168,6 +160,11 @@ A FRAME pallet is compromised of a number of blockchain primitives:
 - Errors: When a dispatchable fails, it returns an error.
 - Config: The `Config` configuration interface is used to define the types and parameters upon
   which a FRAME pallet depends.
+
+### Using Nix
+
+Install [nix](https://nixos.org/) and optionally [direnv](https://github.com/direnv/direnv) and [lorri](https://github.com/target/lorri) for a fully plug
+and play experience for setting up the development environment. To get all the correct dependencies activate direnv `direnv allow` and lorri `lorri shell`.
 
 ### Run in Docker
 
