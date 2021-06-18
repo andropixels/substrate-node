@@ -14,3 +14,9 @@
 
 # direnv cache
 .direnv
+
+# commands
+commands.txt
+
+# secrets
+secrets.txt
